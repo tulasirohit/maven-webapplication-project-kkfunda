@@ -108,6 +108,11 @@
 	    </snapshotRepository>
 	    
 	</distributionManagement>
+	<server>
+		<id>nexus</id>
+		<username>admin</username>
+		<password>Password</password>
+	</server>	
 	
 	<build>
 		<finalName>maven-web-application</finalName>
